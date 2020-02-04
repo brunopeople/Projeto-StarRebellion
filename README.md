@@ -1,68 +1,43 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Este Projeto foi aplicado com o Framework HTML voltado para o Framework Javascript React.js((https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+Projeto desenvolvdido para o processo Seletivo da empresa Ilegra para a vaga de Front-end. Ele consiste em consumir a SWAPI que é a API de Star Wars e mostra o resultado deste consumo num layout com Design UX, layout consinste mostar os personagens principais da franquia e ao apertar o botão mostrar as informações sobre os personagens como data de nascimento, Cor do Cabelo e Gênero. 
 
-### `npm start`
+Para rodar a aplicação é preciso primeiro instalar o React com o seguinte comando do Prompt
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##npm install -g create-react-app
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+O gerenciador de pacotes javascript irá baixar o geredor de projetos para o Framework React.js e assim é possível criar um projeto com 
+o seguinte comando; 
 
-### `npm test`
+## create-react-app nome-projeto --save
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Para rodar os teste é preciso digitar no comando do prompt;
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##npm run test
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalando o Bootstrap
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Neste projeto foi utilizado o Framework HTML5 para a criação do layout. Para a instalação é preciso digitar o seguinte comando no prompt
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## npm install react-bootstrap --save 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Rodar a Aplicação em Produção
 
-## Learn More
+Para rodar o projeto em produção é preciso rodar o comando no prompt
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##npm run build 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Com isto será gerado a build do projeto e o artefato está armazenado no diretório '/dist', logo após a geração é preciso instalar o servidor, para isto digite com o seguinte comando
 
-### Code Splitting
+## npm install -g serve
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+e o comando para gerar o servidor local é 
 
-### Analyzing the Bundle Size
+##serve -s build.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
